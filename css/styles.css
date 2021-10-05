@@ -1,0 +1,62 @@
+.root {
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+
+}
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--primary-text-color);
+    background-color: #FFFFFF;
+    font-size: 1.71;
+}
+/* header */
+.list {
+    list-style: none;  
+}
+.logo {
+    color: var(--accent-color);
+}
+.logo>span {
+        color: #000000;
+    }
+
+/*site-nav */
+.site-nav .link {color: #212121; text-decoration: none;}
+
+.site-nav .link:hover,
+.site-nav .link:focus {color: #2196F3;
+}
+
+/*Hero*/
+.hero {background-color:#2F303A ;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;}
+.hero-title { 
+    color:#FFFFFF;
+}
+
+/*section*/
+
+.section-title {color: #212121;
+}
+
+/*features*/
+.feature-list .title {color: #212121;}
+
+/*color title #212121
+/*color p #757575
+/* white #FFFFFF
+/* akcent #2196F3
+
+background: #212121;
+background: #757575;
+background: #FFFFFF;
+background: #2196F3;
+background: #000000;
+background: #2F303A;
+background: #ECECEC;
+вторичный цвет фона: #F5F4FA;
+
