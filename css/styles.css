@@ -1,7 +1,12 @@
+/*Палитра основных цветов*/
 .root {
     --primary-text-color:#757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --logo-black-color: #000000;
+    --logo-white-color: #ffffff;
+    --hero-footer-bg-color: #2F303A;
+    --secondary-bg-color: #F5F4FA;
 
 }
 body {
@@ -10,7 +15,7 @@ body {
     background-color: #FFFFFF;
     font-size: 1.71;
 }
-/* header */
+/* Шапка сайта */
 .list {
     list-style: none;  
 }
@@ -18,45 +23,32 @@ body {
     color: var(--accent-color);
 }
 .logo>span {
-        color: #000000;
+        color: var(--logo-black-color);
     }
 
-/*site-nav */
-.site-nav .link {color: #212121; text-decoration: none;}
+/*Навигация */
+.site-nav .link {color: var(--title-text-color); text-decoration: none;}
 
 .site-nav .link:hover,
-.site-nav .link:focus {color: #2196F3;
+.site-nav .link:focus {color: var(--accent-color);
 }
 
-/*Hero*/
-.hero {background-color:#2F303A ;
+/*Герой*/
+.hero {background-color: var(--hero-footer-bg-color);
     width: 1600px;
     height: 600px;
     left: 0px;
     top: 80px;}
 .hero-title { 
-    color:#FFFFFF;
+    color: var(--logo-white-color);
 }
 
-/*section*/
+/*Секции*/
 
-.section-title {color: #212121;
+.section-title {color: var(--title-text-color);
 }
 
-/*features*/
-.feature-list .title {color: #212121;}
-
-/*color title #212121
-/*color p #757575
-/* white #FFFFFF
-/* akcent #2196F3
-
-background: #212121;
-background: #757575;
-background: #FFFFFF;
-background: #2196F3;
-background: #000000;
-background: #2F303A;
-background: #ECECEC;
-вторичный цвет фона: #F5F4FA;
+/*Особенности*/
+.feature-list .title {color: var(--title-text-color);
+}
 
