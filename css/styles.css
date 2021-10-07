@@ -1,54 +1,136 @@
 /*Палитра основных цветов*/
 .root {
-    --primary-text-color:#757575;
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
-    --logo-black-color: #000000;
-    --logo-white-color: #ffffff;
-    --hero-footer-bg-color: #2F303A;
-    --secondary-bg-color: #F5F4FA;
-
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-black-color: #000000;
+  --logo-white-color: #ffffff;
+  --hero-footer-bg-color: #2f303a;
+  --primary-bg-color: #f5f4fa;
 }
 body {
-    font-family: Roboto, sans-serif;
-    color: var(--primary-text-color);
-    background-color: #FFFFFF;
-    font-size: 1.71;
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--logo-white-color);
+  font-size: 1.71;
+}
+h1 {
+  color: var(--logo-white-color);
+}
+h2,
+h3 {
+  color: var(--title-text-color);
 }
 /* Шапка сайта */
 .list {
-    list-style: none;  
+  list-style: none;
 }
 .logo {
-    color: var(--accent-color);
 }
-.logo>span {
-        color: var(--logo-black-color);
-    }
+.header-nav .logo {
+  color: var(--accent-color);
+}
+.span-logo {
+  color: var(--logo-black-color);
+}
 
 /*Навигация */
-.site-nav .link {color: var(--title-text-color); text-decoration: none;}
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
 
 .site-nav .link:hover,
-.site-nav .link:focus {color: var(--accent-color);
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
+.site-nav .current {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
 
-/*Герой*/
+  /*Герой*/
+
 .hero {background-color: var(--hero-footer-bg-color);
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;}
-.hero-title { 
-    color: var(--logo-white-color);
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
 }
 
-/*Секции*/
-
-.section-title {color: var(--title-text-color);
+.hero-title {
+}
+.hero-button {background-color: var(--accent-color);
+color: var(--logo-white-color)
 }
 
-/*Особенности*/
-.feature-list .title {color: var(--title-text-color);
+/*Наши преимущества*/
+
+.visually-hidden {
+  position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
+.text-title {}
+.text-subtite {}
+
+/*Чем мы занимаемся*/
+.work-title {
+  
+}
+
+/*Наша команда*/
+.team {
+  background-color: var(--primary-bg-color);
+}
+.team-title {
+
+}
+.team-heading {
+
+}
+.team-text {
+
+}
+/*Футер*/
+.footer {background-color: var(--hero-footer-bg-color);
+}
+.footer .logo {
+  color: var(--accent-color)
+}
+.footer-span {
+  color: var(--logo-white-color);
+}
+.address .link {
+  color: var(--logo-white-color)
+}
+/*уменьшить прозрачность до 60%*/
+.footer-link {color: var(--logo-white-color)}
+/*Button*/
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-bg-colorher);
+}
+.button.primery {
+  background-color: var(--accent-color);
+  color: var(--logo-white-color);
+}
+
+.button.secondary {
+  background-color: var(--primary-bg-color);
+  color: var(--title-text-color);
+}
