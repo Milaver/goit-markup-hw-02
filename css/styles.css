@@ -1,5 +1,5 @@
 /*Палитра основных цветов*/
-.root {
+:root{
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -7,7 +7,7 @@
   --logo-white-color: #ffffff;
   --hero-footer-bg-color: #2f303a;
   --primary-bg-color: #ffffff;
-  --secondary-bg-color: #f5f4fa; 
+  --secondary-bg-color: #f5f4fa;
 }
 body {
 
