@@ -167,8 +167,8 @@ body {
   } 
 
 .team-item {
-  color: var(--primary-bg-color);
-}
+  color: var(--primary-bg-color);}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
