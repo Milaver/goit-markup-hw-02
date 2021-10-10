@@ -215,7 +215,7 @@ body {
   color: var(--title-text-color);
 }
 .button-secondary:hover,
-.button-secondary:focus {color: var(--title-text-color);
+.button-secondary:focus {color: var(--logo-white-color);
   background-color: var(--accent-color);}
 .button-secondary {
   color: var(--title-text-color);
