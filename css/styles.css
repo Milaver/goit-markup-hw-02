@@ -60,7 +60,7 @@ body {
   color: var(--logo-black-color);
 }
 .footer .accent-logo {
-  color: var(--logo-white-color);
+  color: var(--logo-bg-white-color);
 }
 /*Навигация */
 .nav-link,
@@ -218,9 +218,6 @@ list-style: none;
 }
 .footer .logo {
   color: var(--accent-color);
-}
-.footer-span {
-  color: var(--logo-bg-white-color);
 }
 .address .link {
   color: var(--logo-bg-white-color);
