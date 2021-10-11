@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,27 +21,33 @@
           Web<span class="accent-logo">Studio</span>
         </a>
         <ul class="site-nav list">
-          <li><a href="./index.html" class="link current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link link">Студия</a>
+          </li>
+          <li class="nav-item">
+            <a href="./portfolio.html" class="nav-link current link"
+              >Портфолио</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link link">Контакты</a>
+          </li>
         </ul>
       </nav>
       <ul class="contacts-nav">
-        <li>
+        <li class="contacts-item">
           <a href="mailto:info@devstudio.com" class="contacts-link"
             >info@devstudio.com</a
           >
         </li>
-        <li>
+        <li class="contacts-item">
           <a href="tel:+380961111111" class="contacts-link"
             >+38 096 111 11 11</a
           >
         </li>
       </ul>
     </header>
-
     <main>
-      <!-- Фильтр -->
       <section>
         <ul class="filter list">
           <li class="filter-item">
@@ -169,6 +174,7 @@
         </ul>
       </section>
     </main>
+    
     <!--Футер-->
     <footer class="footer">
       <a class="logo" href="./index.html" lang="en">
