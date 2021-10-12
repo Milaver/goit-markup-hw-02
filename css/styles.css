@@ -50,6 +50,7 @@ body {
 }
 /* Шапка сайта */
 .logo {
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -72,12 +73,12 @@ body {
   text-decoration: none;
   color: var(--title-text-color)
   text-decoration: none;
- list-style: none;
+  list-style: none;
 }
-.contacts-nav, .contacts-link {
+.contacts-nav, .contacts-link { 
   color: var(--primary-text-color);
   text-decoration: none; 
-list-style: none;
+  list-style: none;
 }
 .current {color: var(--accent-color);}
 /*Герой*/
